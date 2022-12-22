@@ -1,0 +1,28 @@
+Task :- Create a contact list application meeting the following requirements 
+● Contact should have the following fields :- {
+name :- string,
+phone :- string,
+type :- enum, dropdownlist of type ["personal", "office"],
+isWhatsapp :- boolean ( give a checkbox or radio button on form) ,
+profilePicture: string (store image in firebase/storage and store its url in profile key of contact in localstorage) 
+              }
+● Home page should display the list of saved contacts, display "no contacts saved” and an add contact button if no contact is saved.
+● No authentication or database required, store contacts data in localstorage and data should be fetched from localstorage on reload or initial load.
+● User should be able to add, edit or delete contacts. 
+● Application should have multiple routes :- 
+Homepage : "/" ~ list of contacts
+Add Contact : "/add-contact" to add      contact
+Edit contact : "edit-contact/:id" to edit contact.
+● User should be able to delete contact from home page by clicking delete button on any contact ~ contact should not get deleted instantly on clicking delete button instead a confirmation popup box should be shown. 
+
+
+Bonus
+● Web application deployed on any platform like vercel, heroku etc 
+● Good looking website and ui/ux
+● Following good code practice.
+● Contact list is displayed in alphabetical order by name.
+● Lazy load contacts on the home page.
+
+
+
+

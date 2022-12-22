@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/* Fontawesome icons */
+import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+/* Bootstrap 5 */
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
